@@ -13,6 +13,8 @@
 		63AF94F7266A5BD9000A4326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AF94F6266A5BD9000A4326 /* Assets.xcassets */; };
 		63AF94FA266A5BD9000A4326 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AF94F9266A5BD9000A4326 /* Preview Assets.xcassets */; };
 		63AF94FD266A5BD9000A4326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AF94FB266A5BD9000A4326 /* LaunchScreen.storyboard */; };
+		63AF9505266A5DAB000A4326 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF9504266A5DAB000A4326 /* ListRow.swift */; };
+		63AF9507266A5F0E000A4326 /* SuperheroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF9506266A5F0E000A4326 /* SuperheroModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		63AF94F9266A5BD9000A4326 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63AF94FC266A5BD9000A4326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63AF94FE266A5BD9000A4326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AF9504266A5DAB000A4326 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		63AF9506266A5F0E000A4326 /* SuperheroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				63AF94FB266A5BD9000A4326 /* LaunchScreen.storyboard */,
 				63AF94FE266A5BD9000A4326 /* Info.plist */,
 				63AF94F8266A5BD9000A4326 /* Preview Content */,
+				63AF9504266A5DAB000A4326 /* ListRow.swift */,
+				63AF9506266A5F0E000A4326 /* SuperheroModel.swift */,
 			);
 			path = CharacterGuide;
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AF9505266A5DAB000A4326 /* ListRow.swift in Sources */,
+				63AF9507266A5F0E000A4326 /* SuperheroModel.swift in Sources */,
 				63AF94F1266A5BD7000A4326 /* AppDelegate.swift in Sources */,
 				63AF94F3266A5BD7000A4326 /* SceneDelegate.swift in Sources */,
 				63AF94F5266A5BD7000A4326 /* ContentView.swift in Sources */,
